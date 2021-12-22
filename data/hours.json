@@ -1,0 +1,39 @@
+[
+  {
+    "monday": {
+      "day": "monday",
+      "open": 7,
+      "closed": 9
+    },
+    "tuesday": {
+      "day": "tuesday",
+      "open": 7,
+      "closed": 9
+    },
+    "wednesday": {
+      "day": "wednesday",
+      "open": 7,
+      "closed": 9
+    },
+    "thursday": {
+      "day": "thursday",
+      "open": 7,
+      "closed": 9
+    },
+    "friday": {
+      "day": "friday",
+      "open": 7,
+      "closed": 9
+    },
+    "saturday": {
+      "day": "saturday",
+      "open": 9,
+      "closed": 6
+    },
+    "sunday": {
+      "day": "sunday",
+      "open": 10,
+      "closed": 8
+    }
+  }
+]
