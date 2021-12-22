@@ -148,6 +148,7 @@ p {
 
 .menu-container {
   display: grid;
+
   grid-template-columns: repeat(4, 1fr);
   margin-top: 4rem;
 }
@@ -159,6 +160,7 @@ p {
   }
   img {
     width: 100%;
+    object-fit: fill;
     display: block;
   }
 }
@@ -179,8 +181,6 @@ p {
     }
     &:nth-of-type(2) {
       color: white;
-      float: right;
-      padding-right: 15px;
     }
   }
 }
@@ -189,6 +189,10 @@ p {
   background-color: #fff4df;
   text-align: center;
   padding: 5px;
+  min-height: 215px;
+  p {
+    margin-bottom: 0.5rem;
+  }
   h2 {
     font-size: 2rem;
     font-family: Cookie;

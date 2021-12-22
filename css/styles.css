@@ -162,6 +162,7 @@ p {
 
 .menu-item img {
   width: 100%;
+  object-fit: fill;
   display: block;
 }
 
@@ -184,14 +185,17 @@ p {
 
 .menu-item-title span:nth-of-type(2) {
   color: white;
-  float: right;
-  padding-right: 15px;
 }
 
 .menu-item-subtitle {
   background-color: #fff4df;
   text-align: center;
   padding: 5px;
+  min-height: 215px;
+}
+
+.menu-item-subtitle p {
+  margin-bottom: 0.5rem;
 }
 
 .menu-item-subtitle h2 {
