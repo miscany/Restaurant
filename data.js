@@ -85,9 +85,9 @@ export const menu = {
   lunch: {
     itemOne: {
       price: 15,
-      title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      title: "SPICY FISH FINGERS",
+      subtitle: "Fish Fingers + Spicy Tartare",
+      url: "../images/breakfast/fish-fingers-with-spicy-tartare-and-green-salad.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -97,8 +97,8 @@ export const menu = {
     itemTwo: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Fish Puttanesca",
+      url: "../images/breakfast/fish-puttanesca.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -108,8 +108,8 @@ export const menu = {
     itemThree: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Green Thai Fish Curry",
+      url: "../images/breakfast/green-thai-fish-curry.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -119,8 +119,8 @@ export const menu = {
     itemFour: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Oven Baked Fish + Chips",
+      url: "../images/breakfast/oven-baked-fish-and-chips.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -130,8 +130,8 @@ export const menu = {
     itemFive: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Fish and Mango Salad",
+      url: "../images/breakfast/palm-sugar-fish-and-mango-salad.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -141,8 +141,8 @@ export const menu = {
     itemSix: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Saffron Cotriade",
+      url: "../images/breakfast/saffron-cotriade.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -152,8 +152,8 @@ export const menu = {
     itemSeven: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Seared Salmon",
+      url: "../images/breakfast/seared-salmon-with-pickled-vegetable-and-watercress-salad.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
@@ -163,8 +163,8 @@ export const menu = {
     itemEight: {
       price: 15,
       title: "ROYAL HAWAIIAN",
-      subtitle: "Fresh Ablacore Tuna",
-      url: "../images/breakfast/tuna-poki.jpg",
+      subtitle: "Tempura + Mushy Peas",
+      url: "../images/breakfast/tempurawith-mushy-peas.jpg",
       ingredients: {
         ingredient1: "Classic Sauce + Spicy Mayo",
         ingredient2: " Edamame ● Cabbage ● Mano",
