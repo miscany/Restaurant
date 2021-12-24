@@ -127,5 +127,49 @@ export const menu = {
         ingredient3: "Quickles ● Crispy Shallots",
       },
     },
+    itemFive: {
+      price: 15,
+      title: "ROYAL HAWAIIAN",
+      subtitle: "Fresh Ablacore Tuna",
+      url: "../images/breakfast/tuna-poki.jpg",
+      ingredients: {
+        ingredient1: "Classic Sauce + Spicy Mayo",
+        ingredient2: " Edamame ● Cabbage ● Mano",
+        ingredient3: "Quickles ● Crispy Shallots",
+      },
+    },
+    itemSix: {
+      price: 15,
+      title: "ROYAL HAWAIIAN",
+      subtitle: "Fresh Ablacore Tuna",
+      url: "../images/breakfast/tuna-poki.jpg",
+      ingredients: {
+        ingredient1: "Classic Sauce + Spicy Mayo",
+        ingredient2: " Edamame ● Cabbage ● Mano",
+        ingredient3: "Quickles ● Crispy Shallots",
+      },
+    },
+    itemSeven: {
+      price: 15,
+      title: "ROYAL HAWAIIAN",
+      subtitle: "Fresh Ablacore Tuna",
+      url: "../images/breakfast/tuna-poki.jpg",
+      ingredients: {
+        ingredient1: "Classic Sauce + Spicy Mayo",
+        ingredient2: " Edamame ● Cabbage ● Mano",
+        ingredient3: "Quickles ● Crispy Shallots",
+      },
+    },
+    itemEight: {
+      price: 15,
+      title: "ROYAL HAWAIIAN",
+      subtitle: "Fresh Ablacore Tuna",
+      url: "../images/breakfast/tuna-poki.jpg",
+      ingredients: {
+        ingredient1: "Classic Sauce + Spicy Mayo",
+        ingredient2: " Edamame ● Cabbage ● Mano",
+        ingredient3: "Quickles ● Crispy Shallots",
+      },
+    },
   },
 };
