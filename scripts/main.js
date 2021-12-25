@@ -1,6 +1,6 @@
 import { renderHome } from "./home.js";
 import { renderMenu } from "./menu.js";
-
+import { renderAbout } from "./about.js";
 const home = document.getElementById("home"),
   menu = document.getElementById("menu"),
   about = document.getElementById("about");
@@ -9,3 +9,4 @@ const home = document.getElementById("home"),
 
 home.addEventListener("click", renderHome);
 menu.addEventListener("click", renderMenu);
+about.addEventListener("click", renderAbout);
