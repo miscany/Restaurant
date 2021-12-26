@@ -213,10 +213,24 @@ h3 {
   input {
     width: 100%;
     background-color: $dark-blue;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    &::placeholder {
+      padding-left: 10px;
+    }
   }
   textarea {
     width: 100%;
     background-color: $dark-blue;
+    height: 200px;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+    &::placeholder {
+      padding-left: 10px;
+    }
   }
 }
 
