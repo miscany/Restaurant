@@ -215,6 +215,20 @@ h3 {
   font-family: Cookie;
 }
 
+.input-box {
+  padding: 2rem;
+}
+
+.input-box input {
+  width: 100%;
+  background-color: #a5f1f6;
+}
+
+.input-box textarea {
+  width: 100%;
+  background-color: #a5f1f6;
+}
+
 @media only screen and (max-width: 815px) {
   .menu-container {
     grid-template-columns: repeat(2, 1fr);
