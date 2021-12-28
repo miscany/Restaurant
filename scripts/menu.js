@@ -3,9 +3,9 @@ import { menu } from "../data.js";
 
 export function actualRender(menu) {
   const menuItems = [];
-  console.log('something1');
+  
   for (const [key, value] of Object.entries(menu)) {
-    console.log('something else2');
+    
     const menuItem = document.createElement("div"),
       imgCont = document.createElement("div"),
       img = document.createElement("img"),
@@ -47,6 +47,7 @@ export function actualRender(menu) {
 }
 
 export function renderMenu() {
+  console.log('????');
   clearHtml();
   const content = document.querySelector(".content"),
     breakfastMenuCont = document.createElement("div"),
