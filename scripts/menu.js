@@ -16,7 +16,7 @@ export function actualRender(menu) {
       keyCopy = key;
 
     menuItem.classList.add("menu-item");
-    console.log('something');
+    
     img.src = value.url;
     imgCont.classList.add("img-cont");
     imgCont.appendChild(img);
@@ -72,11 +72,12 @@ export function renderMenu() {
   lunch.classList.add("title");
   lunchH1.innerText = "LUNCH";
   lunch.appendChild(lunchH1);
-
+  console.log('something');
   const lunchMenuItems = actualRender(menu.lunch);
   lunchMenuItems.forEach((item) => {
     lunchMenuCont.appendChild(item);
   });
+  console.log('something else');
 
   content.appendChild(lunch);
   content.appendChild(lunchMenuCont);
