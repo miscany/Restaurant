@@ -4,6 +4,7 @@ import { menu } from "../data.js";
 export function actualRender(menu) {
   const menuItems = [];
   console.log('what');
+  console.log('.');
   for (const [key, value] of Object.entries(menu)) {
     
     const menuItem = document.createElement("div"),
