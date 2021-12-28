@@ -3,8 +3,9 @@ import { menu } from "../data.js";
 
 export function actualRender(menu) {
   const menuItems = [];
-
+  console.log('something1');
   for (const [key, value] of Object.entries(menu)) {
+    console.log('something else2');
     const menuItem = document.createElement("div"),
       imgCont = document.createElement("div"),
       img = document.createElement("img"),
@@ -72,13 +73,11 @@ export function renderMenu() {
   lunch.classList.add("title");
   lunchH1.innerText = "LUNCH";
   lunch.appendChild(lunchH1);
-  console.log('something');
   const lunchMenuItems = actualRender(menu.lunch);
   lunchMenuItems.forEach((item) => {
     lunchMenuCont.appendChild(item);
   });
-  console.log('something else');
-
+ 
   content.appendChild(lunch);
   content.appendChild(lunchMenuCont);
 }
