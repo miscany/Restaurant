@@ -1,7 +1,7 @@
 import { clearHtml } from "./home.js";
 import { menu } from "../data.js";
 
-function actualRender(menu) {
+export function actualRender(menu) {
   const menuItems = [];
 
   for (const [key, value] of Object.entries(menu)) {

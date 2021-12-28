@@ -1,5 +1,5 @@
 import { renderHome } from "./home.js";
-import { renderMenu } from "./menu.js";
+import { renderMenu, actualRender } from "./menu.js";
 import { renderAbout } from "./about.js";
 window.addEventListener("DOMContentLoaded", () => {
   renderHome();
