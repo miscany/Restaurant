@@ -16,7 +16,7 @@ export function actualRender(menu) {
       keyCopy = key;
 
     menuItem.classList.add("menu-item");
-    console.log(value.url);
+    console.log('something');
     img.src = value.url;
     imgCont.classList.add("img-cont");
     imgCont.appendChild(img);
