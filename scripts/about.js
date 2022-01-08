@@ -1,5 +1,9 @@
 import { clearHtml } from "./home.js";
-
+function clearFields(...fields) {
+  fields.forEach((field) => {
+    field.value = "";
+  });
+}
 export function renderAbout() {
   clearHtml();
 
@@ -12,6 +16,7 @@ export function renderAbout() {
     inputBox = document.createElement("div"),
     inputName = document.createElement("input"),
     inputEmail = document.createElement("input"),
+    inputSubmit = document.createElement("button"),
     textArea = document.createElement("textarea"),
     location = document.createElement("div"),
     locationH1 = document.createElement("h1"),
@@ -40,9 +45,17 @@ export function renderAbout() {
 
   textArea.id = "message";
   textArea.placeholder = "Message";
+
+  inputSubmit.innerText = "Submit";
+  inputSubmit.classList.add("submit-btn");
+  inputSubmit.innerText = "Submit";
+  inputSubmit.addEventListener("click", () => {
+    clearFields(inputName, inputEmail, textArea);
+  });
   inputBox.appendChild(inputName);
   inputBox.appendChild(inputEmail);
   inputBox.appendChild(textArea);
+  inputBox.appendChild(inputSubmit);
 
   // Location
   location.classList.add("title");

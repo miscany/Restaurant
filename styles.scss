@@ -224,13 +224,27 @@ h3 {
   textarea {
     width: 100%;
     background-color: $dark-blue;
-    height: 200px;
+    height: 160px;
     font-size: 18px;
     resize: none;
     outline: none;
     &::placeholder {
       padding-left: 10px;
     }
+  }
+}
+
+.submit-btn {
+  background-color: $dark-blue;
+  padding: 5px;
+  border-style: none;
+  border: 1px solid black;
+  cursor: pointer;
+  &:hover {
+    background-color: $blue;
+  }
+  &:active {
+    background-color: $lt-blue;
   }
 }
 
